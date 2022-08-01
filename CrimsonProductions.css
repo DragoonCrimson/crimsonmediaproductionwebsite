@@ -1,0 +1,156 @@
+@charset "utf-8";
+			.WebPage
+		{
+			height:inherit; width:inherit;
+			background-color:darkslategray;
+		}
+		
+		.MainPage
+		{
+			margin-left:1%;
+			margin-right:1%;
+			margin-top:2.5%;
+			margin-bottom:1%;
+			background-color:slategray;
+			padding-top:0.005%;
+		}
+		.Layout
+		{
+			display:grid;
+		}
+			
+		.Header
+		{
+			display:grid;
+			position:center;
+			background-color:black;
+			margin:1%;
+		}
+		
+		.Title
+		{
+			display:grid;
+			text-align:center;
+			color:green;
+			font-family:Times, "Times New Roman", "serif";
+			font-style:italic;
+			margin:1%;
+			
+		}
+		
+		.MainDiv
+		{
+			display:grid;
+			background-color:slategray;
+			margin-left:1%;
+			margin-right:1%;
+		}
+		
+		.HeaderTwo
+		{
+			display:grid;
+			background-color:black;
+			color:green;
+			font-family:Times, "Times New Roman", "serif";
+			font-style:italic;
+			margin-right:1%;
+			margin-left:1%;
+			position:center;
+			text-align:center;
+		}
+		.SubHeader
+		{
+			font-style:italic;
+			text-align:center;
+		}
+		
+		.Information
+		{
+			table-layout: 3, 2;
+		}
+		.Column
+		{
+			width: -moz-fit-content;
+			width:fit-content;
+			background-color:black;
+			color:white;
+			flex:33%;
+			margin:1%;
+			padding:1%;
+		}
+		.ColumnFinal
+		{
+			width: -moz-fit-content;
+			width:fit-content;
+			background-color:black;
+			color:white;
+			flex:33%;
+			margin:1%;
+			padding-left:1%;
+			padding-right:1%;
+			padding-bottom:-1%;
+		}
+		.Row
+		{
+			display: flex;	
+		}
+		.RowTwo
+		{
+			display: flex;
+		}
+		.Responsive
+		{
+			max-width:480px;
+			max-height:480px;
+			width:100%;
+			height:auto;
+		}
+		.Menu 
+		{
+			display:flex;
+  			align-content:flex-end;
+  			background-color: black;
+		}
+
+		.Menu a 
+		{
+			float:left;
+			margin:1%;
+  			display: block;
+ 		 	color: white;
+ 		 	text-align: center;
+			text-decoration:none;
+		}
+		
+		.Menu a:hover 
+		{
+  			background-color:green;
+			color:black;
+		}
+		.Active
+		{
+			background-color:green;
+		}
+		.ParaOne
+		{
+			text-align: justify;
+		}
+		.Copyright
+		{
+	
+
+			display:grid;
+			position:center;
+			background-color:black;
+			margin:1%;
+		}
+		.CopyrightInfo
+		{
+			color: white;
+			text-align:justify;
+			text-emphasis: italic;
+			
+		}
+		
+
+
