@@ -133,7 +133,7 @@
 		}
 		.ParaOne
 		{
-			text-align: justify;
+			text-align: left;
 		}
 		.Copyright
 		{
@@ -147,7 +147,7 @@
 		.CopyrightInfo
 		{
 			color: white;
-			text-align:justify;
+			text-align:left;
 			text-emphasis: italic;
 			
 		}
