@@ -2,7 +2,7 @@
 			.WebPage
 		{
 			height:inherit; width:inherit;
-			background-color:darkslategray;
+			background-color:black;
 		}
 		
 		.MainPage
@@ -32,7 +32,8 @@
 			display:grid;
 			text-align:center;
 			color:green;
-			font-family:Times, "Times New Roman", "serif";
+			font-family:"Verdana Pro Cond Light";
+			
 			font-style:italic;
 			margin:1%;
 			
@@ -51,7 +52,7 @@
 			display:grid;
 			background-color:black;
 			color:green;
-			font-family:Times, "Times New Roman", "serif";
+			font-family:"Verdana Pro Cond Light";
 			font-style:italic;
 			margin-right:1%;
 			margin-left:1%;
@@ -133,7 +134,7 @@
 		}
 		.ParaOne
 		{
-			text-align: left;
+			text-align: justify;
 		}
 		.Copyright
 		{
@@ -147,10 +148,12 @@
 		.CopyrightInfo
 		{
 			color: white;
-			text-align:left;
+			text-align:justify;
 			text-emphasis: italic;
 			
 		}
 		
+
+
 
 
