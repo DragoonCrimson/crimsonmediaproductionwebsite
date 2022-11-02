@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CrimsonProductions</title>
+	<link href="./CrimsonProductions.css"  rel="stylesheet" type="text/css">
+	
+</head>
+
+	
+	
+<body class="WebPage">
+	<grid class="Layout">	
+	<div class="MainPage">
+	<div class="Header">
+	  <h1 class="Title">
+		  <strong>
+			  <em>
+				  CrimsonMedia Productions
+			  </em>
+		  </strong>
+		</h1>
+			   <em>
+				  CrimsonMedia Productions
+			  </em>
+		  </strong>
+		</h1>
+    
+	<div class="Menu">
+		<nav style=" width:100%;">
+			<a href="./index.html"  class="Active">HomePage</a>
+			<a href="./C++.html">C++</a>
+			<a href="./CSharp.html">C#</a>
+			<a href="./Webdesign.html">HTML/CSS</a>
+			<a href="./MySql.html">MYSQL</a>
+			<a href="./AboutMe.html">About me</a>
+			<a href="./Contact.html">Contact</a>
+			<a href="./Downloads.html">Downloads</a>
+			<a href="./Copyright.html" >Copyright</a>
+      <a href="./ErinDwight.html">NoodleFans</a>
+		</nav>
+		</div>
+		</div>
+	</div>
+	<div class="MainDiv">
+	<div><h2 class="HeaderTwo">Welcome to the Noodle Fans Page</h2></div>
+		<div class="Information">
+		<div class="Row">
+		<div class="Column">
+			<h3 class="SubHeader">What is the NOODLE</h3>
+<p class ="ParaOne">The noodle is a legendary figure, commonly found in twitch, however some may say it has been seen walking around
+<br> hunting for the person who stole its ramen.<br>
+
+
+</p>
+</div>
+			<div class="Column"><img src="./CMPLOGO32.png" alt="CrimsonProductionsLogo" class="Responsive"></div>
+		</div>
+	</div>
+		</div>
+</grid>
+			
+			
+			
+			
+</body>
+</html>
