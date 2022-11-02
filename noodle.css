@@ -108,7 +108,7 @@
 		}
 		.Menu 
 		{
-			display:flex;
+			display:center;
   			align-content:center;
   			background-color: black;
 		}
