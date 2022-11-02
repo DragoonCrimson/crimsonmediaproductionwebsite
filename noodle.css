@@ -24,6 +24,7 @@
 			display:grid;
 			position:center;
 			background-color:lilac;
+			color:white;
 			margin:1%;
 		}
 		
@@ -33,7 +34,6 @@
 			text-align:center;
 			color:lilac;
 			font-family:"Verdana Pro Cond Light";
-			
 			font-style:italic;
 			margin:1%;
 			
@@ -109,7 +109,7 @@
 		.Menu 
 		{
 			display:flex;
-  			align-content:flex-end;
+  			align-content:center;
   			background-color: black;
 		}
 
