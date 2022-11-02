@@ -11,7 +11,7 @@
 			margin-right:1%;
 			margin-top:2.5%;
 			margin-bottom:1%;
-			background-color:blue;
+			background-color:black;
 			padding-top:0.005%;
 		}
 		.Layout
@@ -23,7 +23,7 @@
 		{
 			display:grid;
 			position:center;
-			background-color:purple;
+			background-color:lilac;
 			margin:1%;
 		}
 		
@@ -42,7 +42,7 @@
 		.MainDiv
 		{
 			display:grid;
-			background-color:blue;
+			background-color:black;
 			margin-left:1%;
 			margin-right:1%;
 		}
@@ -51,7 +51,7 @@
 		{
 			display:grid;
 			background-color:black;
-			color:green;
+			color:white;
 			font-family:"Verdana Pro Cond Light";
 			font-style:italic;
 			margin-right:1%;
@@ -83,7 +83,7 @@
 		{
 			width: -moz-fit-content;
 			width:fit-content;
-			background-color:purple;
+			background-color:black;
 			color:white;
 			flex:33%;
 			margin:1%;
@@ -118,20 +118,20 @@
 			float:left;
 			margin:1%;
   			display: block;
- 		 	color: purple;
+ 		 	color: lilac;
  		 	text-align: center;
 			text-decoration:none;
 		}
 		
 		.Menu a:hover 
 		{
-  			background-color:blue;
-			color:black;
+  			background-color:black;
+			color:white;
 		}
     
 		.Active
 		{
-			background-color:purple;
+			background-color:lilac;
 		}
     
 		.ParaOne
