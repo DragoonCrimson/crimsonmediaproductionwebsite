@@ -1,5 +1,8 @@
 @charset "utf-8";
-			.WebPage
+		body {
+			font-family: sans-serif;
+		}
+		.WebPage
 		{
 			height:inherit; width:inherit;
 			background-color:black;
@@ -33,11 +36,14 @@
 			text-align:center;
 			color:green;
 			font-family:"Verdana Pro Cond Light";
-			
 			font-style:italic;
 			margin:1%;
-			
 		}
+		.subTitle
+		{
+			display:flex;
+			text-align:center;
+		}	
 		
 		.MainDiv
 		{
