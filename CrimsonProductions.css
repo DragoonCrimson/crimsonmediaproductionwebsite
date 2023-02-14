@@ -150,5 +150,10 @@
 			color: white;
 			text-align:justify;
 			text-emphasis: italic;
-			
 		}
+.exampleCode
+{
+	background-color:white;
+	margin: 10%;
+	padding:2%;
+}
