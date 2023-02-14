@@ -127,7 +127,6 @@
  		 	text-align: center;
 			text-decoration:none;
 		}
-		
 		.Menu a:hover 
 		{
   			background-color:green;
@@ -143,8 +142,6 @@
 		}
 		.Copyright
 		{
-	
-
 			display:grid;
 			position:center;
 			background-color:black;
@@ -160,6 +157,5 @@
 		{
 			background-color:white;
 			color:black;
-			margin: 10%;
 			padding:2%;
 		}
