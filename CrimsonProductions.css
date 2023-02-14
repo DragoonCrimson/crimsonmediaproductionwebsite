@@ -151,9 +151,10 @@
 			text-align:justify;
 			text-emphasis: italic;
 		}
-.exampleCode
-{
-	background-color:white;
-	margin: 10%;
-	padding:2%;
-}
+		.exampleCode
+		{
+			background-color:white;
+			color:black;
+			margin: 10%;
+			padding:2%;
+		}
