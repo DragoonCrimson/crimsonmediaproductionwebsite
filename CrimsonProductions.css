@@ -110,6 +110,7 @@
 		}
 		.navBar 
 		{
+			width: 100%;
 			position:sticky;
 		}
 		.Menu 
@@ -117,14 +118,13 @@
 			display:flex;
   			align-content:flex-end;
   			background-color: black;
-			position:sticky;
 		}
 
 		.Menu a 
 		{
 			float:left;
 			margin:1%;
-  			display: block;
+  			display: flex;
  		 	color: white;
  		 	text-align: center;
 			text-decoration:none;
