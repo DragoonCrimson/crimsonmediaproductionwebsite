@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<head>
+	<meta charset="utf-8">
+	<title> Finance Calculator </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+	<header>
+		<h1>Finance Calculator</h1>
+	</header>
+	<p>Do you want to calculate your income tax?</p>
+  <p id="response"> </p>
+  <p id="secondResponse"> </p>
+		<form id="grossIncomeForm" style="visibility: visible" value="" min="0">
+			<label for="grossIncome"> Gross: </label>
+			<input placeholder="Enter Value Here" type="float" id="grossIncome">
+			<button type="submit">Submit</button>
+		</form>
+		<form id="netIncomeForm" style="visibility: visible" value="" min="0">
+			<label for="netIncome"> Net: </label>
+			<input placeholder="Enter Value Here" type="float" id="netIncome">
+			<button type="submit">Submit</button>
+		</form>
+</body>
