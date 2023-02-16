@@ -11,6 +11,7 @@ function calculations() {
   console.log(percentagePaid.toFixed(2) + "%");
   response.innerText = "You have paid: " + (percentagePaid.toFixed(2) + "%") + " tax on your income";
   secondResponse.innerText = "This is the monetary equivalent to: " + difference;
+  event.preventDefault();
 }
 const grossIncomeForm = document.getElementById("grossIncomeForm");
 
