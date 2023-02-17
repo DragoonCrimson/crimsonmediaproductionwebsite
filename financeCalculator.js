@@ -80,22 +80,22 @@ function randomColors(){
 }
 function changeFont(){
   const chosenFont = texts.options[texts.selectedIndex].value;
-  let text = "san serif";
+  let font = "san serif";
   switch (chosenFont) {
     case "fantasy":
-      text = "fantasy";
+      font = "fantasy";
       break;
     case "monospace":
-      text = "monospace";
+      font = "monospace";
       break;  
     case "san serif":
-      text = "san serif";
+      font = "san serif";
       break;
       default:
-      text = "san serif";
+      font = "san serif";
   }
-  document.getElementById("text").style.fontFamily = text;
-  alert("This Worked but something did not");
+  document.getElementById("font").style.fontFamily = font;
+  console.log(font)
   event.preventDefault();
   window.localStorage;
 }
