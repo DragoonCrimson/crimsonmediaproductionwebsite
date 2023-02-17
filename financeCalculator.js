@@ -96,7 +96,7 @@ function changeFont(){
       text = "san serif";
   }
   document.getElementById("text").style.fontFamily = text;
-  alert(text);
+  alert("This Worked but something did not");
   event.preventDefault();
   window.localStorage;
 }
