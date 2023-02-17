@@ -65,10 +65,34 @@ function chosenColors() {
     document.getElementById("header").style.color = "black";
   }
   event.preventDefault();
+  window.localStorage;
 }
 function randomColors(){
  const response = document.getElementById("randomColor").value;
   document.getElementById("header").style.backgroundColor = response;
   event.preventDefault();
+  window.localStorage;
+}
+function changeFont(){
+  const fonts = document.getElementById("fonts");
+  const chosenFont = fonts.options[fonts.selectedIndex].value;
+  let font = "san serif";
+  switch (chosenFont) {
+    case "fantasy":
+      font = "fantasy";
+      break;
+    case "monospace":
+      font = "monospace";
+      break;  
+    case "san serif":
+      font = "san serif";
+      break;
+      default:
+      font = "san serif";
+  }
+  document.getElementById("text").style.fontFamily = font;
+  console.log(font)
+  event.preventDefault();
+  window.localStorage;
 }
 
