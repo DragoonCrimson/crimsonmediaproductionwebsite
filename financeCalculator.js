@@ -27,7 +27,7 @@ colorForm.addEventListener("submit", function (event) {
   chosenColors();
   });
 randomColorForm.addEventListener("submit", function (event) {
-  testColors();
+  randomColors();
 }); 
 
 function chosenColors() {
