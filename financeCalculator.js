@@ -14,7 +14,7 @@ randomColorForm.addEventListener("submit", function (event) {
   randomColors();
 }); 
 
-fontForm.addEventListener("submit", function (event) {
+textForm.addEventListener("submit", function (event) {
   changeFont();
 });
 
