@@ -80,7 +80,7 @@ function randomColors(){
 }
 function changeFont(){
   const texts = document.getElementById("text");
-  const chosenFont = fonts.options[fonts.selectedIndex].value;
+  const chosenFont = texts.options[texts.selectedIndex].value;
   let text = "san serif";
   switch (chosenFont) {
     case "fantasy":
