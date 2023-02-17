@@ -24,15 +24,12 @@ function calculations() {
 }
 const grossIncomeForm = document.getElementById("grossIncomeForm");
 
-
-
-colorForm.addEventListener("submit", function (event) { 
-  chosenColors();
-  });
 randomColorForm.addEventListener("submit", function (event) {
   randomColors();
 }); 
-
+colorForm.addEventListener("submit", function (event) { 
+  chosenColors();
+  });
 fontForm.addEventListener("submit", function (event) {
   changeFont();
 });
@@ -62,6 +59,9 @@ function chosenColors() {
     case "aquamarine":
       color = "aquamarine";
       break;
+    case "white":
+      color = "white";
+      break;
     default:
     color = "white";
   }
@@ -72,13 +72,16 @@ function chosenColors() {
     document.getElementById("header").style.color = "black";
   }
   event.preventDefault();
-  window.localStorage;
 }
 function randomColors(){
  const response = document.getElementById("randomColor").value;
   document.getElementById("header").style.backgroundColor = response;
+  if(response === "black") {
+    document.getElementById("header").style.color = "white";
+  } else {
+    document.getElementById("header").style.color = "black";
+  }
   event.preventDefault();
-  window.localStorage;
 }
 function changeFont(){
   const chosenFont = texts.options[texts.selectedIndex].value;
