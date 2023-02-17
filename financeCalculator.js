@@ -55,7 +55,7 @@ function chosenColors() {
     default:
     color = "white";
   }
-  document.getElementById("header").style.backgroundColor = color;
+  document.getElementById("Webpage").style.backgroundColor = color;
   if(color === "black"){
     document.getElementById("header").style.color = "white";
   } else {
