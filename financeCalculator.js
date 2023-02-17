@@ -1,3 +1,23 @@
+
+grossIncomeForm.addEventListener("submit", function (event) {
+});
+const netIncomeForm = document.getElementById("netIncomeForm");
+
+netIncomeForm.addEventListener("submit", function (event) {
+  calculations();
+});
+
+colorForm.addEventListener("submit", function (event) { 
+  chosenColors();
+  });
+randomColorForm.addEventListener("submit", function (event) {
+  randomColors();
+}); 
+
+fontForm.addEventListener("submit", function (event) {
+  changeFont();
+});
+
 function calculations() {
 
   const gross = document.getElementById("grossIncome").value;
@@ -14,21 +34,6 @@ function calculations() {
   event.preventDefault();
 }
 const grossIncomeForm = document.getElementById("grossIncomeForm");
-
-grossIncomeForm.addEventListener("submit", function (event) {
-});
-const netIncomeForm = document.getElementById("netIncomeForm");
-
-netIncomeForm.addEventListener("submit", function (event) {
-  calculations();
-});
-
-colorForm.addEventListener("submit", function (event) { 
-  chosenColors();
-  });
-randomColorForm.addEventListener("submit", function (event) {
-  randomColors();
-}); 
 
 function chosenColors() {
 
