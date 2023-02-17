@@ -1,12 +1,3 @@
-
-grossIncomeForm.addEventListener("submit", function (event) {
-});
-const netIncomeForm = document.getElementById("netIncomeForm");
-
-netIncomeForm.addEventListener("submit", function (event) {
-  calculations();
-});
-
 function calculations() {
 
   const gross = document.getElementById("grossIncome").value;
@@ -23,6 +14,13 @@ function calculations() {
   event.preventDefault();
 }
 const grossIncomeForm = document.getElementById("grossIncomeForm");
+grossIncomeForm.addEventListener("submit", function (event) {
+});
+
+const netIncomeForm = document.getElementById("netIncomeForm");
+netIncomeForm.addEventListener("submit", function (event) {
+  calculations();
+});
 
 randomColorForm.addEventListener("submit", function (event) {
   randomColors();
