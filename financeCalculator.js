@@ -97,6 +97,5 @@ function changeFont(){
   document.getElementById("font").style.fontFamily = font;
   console.log(font)
   event.preventDefault();
-  window.localStorage;
 }
 
