@@ -22,3 +22,45 @@ const netIncomeForm = document.getElementById("netIncomeForm");
 netIncomeForm.addEventListener("submit", function (event) {
   calculations();
 });
+
+colorForm.addEventListener("submit", function (event) { 
+  chosenColors();
+  });
+
+function chosenColors() {
+
+  const colors = document.getElementById("colors");
+  const chosenColor = colors.options[colors.selectedIndex].value;
+  let color = "white";
+  switch (chosenColor) {
+
+    case "red":
+    color = "red";
+      break;
+    case "green":
+    color = "green";
+      break;
+    case "blue":
+    color = "blue";
+      break;
+    case "grey":
+      color = "grey";
+      break;
+    case "black":
+      color = "black";
+      break;
+    case "aquamarine":
+      color = "aquamarine";
+      break;
+    default:
+    color = "white";
+  }
+  document.getElementById("header").style.backgroundColor = color;
+  if(color === "black"){
+    document.getElementById("header").style.color = "white";
+  } else {
+    document.getElementById("header").style.color = "black";
+  }
+  event.preventDefault();
+}
+
