@@ -85,8 +85,8 @@ function changeFont(){
   const chosenFont = texts.options[texts.selectedIndex].value;
   let font = "san serif";
   switch (chosenFont) {
-    case "fantasy":
-      font = "fantasy";
+    case "cursive":
+      font = "cursive";
       break;
     case "monospace":
       font = "monospace";
