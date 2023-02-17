@@ -22,12 +22,15 @@ netIncomeForm.addEventListener("submit", function (event) {
   calculations();
 });
 
-randomColorForm.addEventListener("submit", function (event) {
-  randomColors();
-}); 
 colorForm.addEventListener("submit", function (event) { 
   chosenColors();
   });
+randomColorForm.addEventListener("submit", function (event) {
+  randomColors();
+}); 
+fontForm.addEventListener("submit", function (event) {
+  changeFont();
+});
 
 function chosenColors() {
 
@@ -76,5 +79,24 @@ function randomColors(){
   } else {
     document.getElementById("header").style.color = "black";
   }
+  event.preventDefault();
+}
+function changeFont(){
+  const chosenFont = texts.options[texts.selectedIndex].value;
+  let font = "san serif";
+  switch (chosenFont) {
+    case "fantasy":
+      font = "fantasy";
+      break;
+    case "monospace":
+      font = "monospace";
+      break;  
+    case "san serif":
+      font = "san serif";
+      break;
+      default:
+      font = "san serif";
+  }
+  document.getElementById("font").style.fontFamily = font;
   event.preventDefault();
 }
