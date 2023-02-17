@@ -67,7 +67,7 @@ function chosenColors() {
   event.preventDefault();
 }
 function randomColors(){
- const response = document.getElementById("randomColors").value;
+ const response = document.getElementById("randomColor").value;
   document.getElementById("header").style.backgroundColor = response;
   event.preventDefault();
 }
