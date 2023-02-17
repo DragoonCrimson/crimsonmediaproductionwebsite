@@ -26,6 +26,9 @@ netIncomeForm.addEventListener("submit", function (event) {
 colorForm.addEventListener("submit", function (event) { 
   chosenColors();
   });
+randomColorForm.addEventListener("submit", function (event) {
+  testColors();
+}); 
 
 function chosenColors() {
 
@@ -61,6 +64,11 @@ function chosenColors() {
   } else {
     document.getElementById("header").style.color = "black";
   }
+  event.preventDefault();
+}
+function randomColors(){
+ const response = document.getElementById("randomColors").value;
+  document.getElementById("header").style.backgroundColor = response;
   event.preventDefault();
 }
 
