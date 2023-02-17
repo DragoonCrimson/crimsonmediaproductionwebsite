@@ -79,7 +79,6 @@ function randomColors(){
   window.localStorage;
 }
 function changeFont(){
-  const texts = document.getElementById("text");
   const chosenFont = texts.options[texts.selectedIndex].value;
   let text = "san serif";
   switch (chosenFont) {
