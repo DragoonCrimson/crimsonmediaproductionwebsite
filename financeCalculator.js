@@ -74,24 +74,23 @@ function randomColors(){
   window.localStorage;
 }
 function changeFont(){
-  const fonts = document.getElementById("fonts");
+  const texts = document.getElementById("text");
   const chosenFont = fonts.options[fonts.selectedIndex].value;
-  let font = "san serif";
+  let text = "san serif";
   switch (chosenFont) {
     case "fantasy":
-      font = "fantasy";
+      text = "fantasy";
       break;
     case "monospace":
-      font = "monospace";
+      text = "monospace";
       break;  
     case "san serif":
-      font = "san serif";
+      text = "san serif";
       break;
       default:
-      font = "san serif";
+      text = "san serif";
   }
-  document.getElementById("text").style.fontFamily = font;
-  console.log(font)
+  document.getElementById("text").style.fontFamily = text;
   event.preventDefault();
   window.localStorage;
 }
