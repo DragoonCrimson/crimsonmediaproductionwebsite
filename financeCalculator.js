@@ -55,11 +55,11 @@ function chosenColors() {
     default:
     color = "white";
   }
-  document.getElementById("WebPage").style.backgroundColor = color;
+  document.getElementById("colorChange").style.backgroundColor = color;
   if(color === "black"){
-    document.getElementById("WebPage").style.color = "white";
+    document.getElementById("colorChange").style.color = "white";
   } else {
-    document.getElementById("WebPage").style.color = "black";
+    document.getElementById("colorChange").style.color = "black";
   }
   event.preventDefault();
 }
