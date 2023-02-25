@@ -1,3 +1,5 @@
+//Part of the tax calculator functionality
+
 function calculations() {
 
   const gross = document.getElementById("grossIncome").value;
@@ -32,6 +34,7 @@ fontForm.addEventListener("submit", function (event) {
   changeFont();
 });
 
+//Changing background colours
 function chosenColors() {
 
   const colors = document.getElementById("colors");
@@ -71,6 +74,7 @@ function chosenColors() {
   }
   event.preventDefault();
 }
+//Random Background Colours part 2
 function randomColors(){
  const response = document.getElementById("randomColor").value;
   document.getElementById("header").style.backgroundColor = response;
@@ -81,6 +85,7 @@ function randomColors(){
   }
   event.preventDefault();
 }
+// Changing font
 function changeFont(){
   const chosenFont = texts.options[texts.selectedIndex].value;
   let font = "san serif";
@@ -100,6 +105,36 @@ function changeFont(){
   document.getElementById("font").style.fontFamily = font;
   event.preventDefault();
 }
+
+//Full Customisation
+function fullCustom(){
+  const fontColor = document.getElementById("customFont").value;
+  const customFontSize = customSize.options[customSize.selectedIndex].value;
+  let Size = "12px";
+  switch(customFontSize){
+    case "8":
+      Size = "8px";
+      break;
+    case "12":
+      Size = "12px";
+      break;
+    case "24":
+      Size = "24px";
+      break;
+    default:
+      Size = "12px";
+  }
+  const customColour = document.getElementById("customBackground").value;
+  if (customColour === "MintOMello") {
+    (document.getElementById("customisation").style.backgroundColor = "#3EB489") + (document.getElementById("customisation").style.fontSize = "72px");
+  } else {
+  (document.getElementById("customisation").style.backgroundColor = customColour) + 
+    (document.getElementById("customisation").style.color = fontColor) + (document.getElementById("customisation").style.fontSize = Size);}
+  event.preventDefault();
+}
+
+// Youtube Search Features
+
 
 const apiKey = "AIzaSyDnGjWOB4G6T1vwvgPj67e60Ilpe_zR818";
 
