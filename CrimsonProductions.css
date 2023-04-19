@@ -115,7 +115,7 @@
 img {
     display:flexbox;
     object-position:center;
-	onject-fit: contain;
+	object-fit: contain;
 }
 
 /* Navigation Bar */
