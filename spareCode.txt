@@ -1,0 +1,44 @@
+<header style="">
+		<h1 class="test" id="font"> Choose A Style </h1>
+		<form class="Test" id="colorForm">
+			<label for="colors"> Colour: </label>
+			<select name="colors" id="colors">
+						<option value="red">Red</option>
+						<option value="green">Green</option>
+            <option value="blue">Blue</option>
+			      <option value="grey">Grey</option>
+	          <option value="black">Black</option>
+            <option value="aquamarine">Aquamarine</option>
+						<option value="white">White</option>
+			</select>
+			<button type="submit" id="font"> Change Colour </button>
+		</form>
+				<form id="randomColorForm">
+					<label for="randomColor" id="font">Colour:</label>
+					<input placeholder="randomColor" type="text" id="randomColor">
+					<button type="submit" id="font">Change Colour</button>
+				</form>
+		<p id="font"> Test </p>
+				<form id="fontForm">
+				<label for="fonts"> Font: </label>
+				<select name="fonts" id="texts">
+					<option value="cursive" id="font">Cursive</option>
+					<option value="monospace" id="font">Monospace</option>
+					<option value="san serif" id="font">Sans-Serif</option>
+				</select>
+				<button type="submit" id="font">Change Font</button>
+			</form>
+		      <h2 class="customisation">Customisation Form</h2>
+      <form id="customisation">
+        <label for="colour">Options:</label>
+        <input placeholder="Font Colour Option" type="text" id="customFont">
+        <select name="customSize" id="customSize">
+            <option value="8">8</option>
+						<option value="12">12</option>
+			      <option value="24">24</option>
+				</select>
+        <input placeholder="Background Colour" type="text" id="customBackground">
+		<button type="submit"> Enter </button>
+      </form>
+	</header>
+			</div>
