@@ -1,168 +1,161 @@
-@charset "utf-8";
-		.WebPage
-		{
-			height:inherit; width:inherit;
-			background-color:black;
-			font-family: sans-serif;
-			id: "customisation"
-		}
-		.MainPage
-		{
-			margin-left:1%;
-			margin-right:1%;
-			margin-top:2.5%;
-			margin-bottom:1%;
-			background-color:slategray;
-			padding-top:0.005%;
-		}
-		.Layout
-		{
-			display:grid;
-		}
-		.Header
-		{
-			display:grid;
-			position:center;
-			background-color:black;
-			margin:1%;
-		}
-		
-		.Title
-		{
-			display:grid;
-			text-align:center;
-			color:green;
-			font-family:"Verdana Pro Cond Light";
-			font-style:italic;
-			margin:1%;
-		}
-		.subTitles
-		{
-			display:flex;
-			text-align:center;
-		}	
-		
-		.MainDiv
-		{
-			display:grid;
-			background-color:slategray;
-			margin-left:1%;
-			margin-right:1%;
-		}
-		
-		.HeaderTwo
-		{
-			display:grid;
-			background-color:black;
-			color:green;
-			font-family:"Verdana Pro Cond Light";
-			font-style:italic;
-			margin-right:1%;
-			margin-left:1%;
-			position:center;
-			text-align:center;
-		}
-		.SubHeader
-		{
-			font-style:italic;
-			text-align:center;
-		}
-		
-		.Information
-		{
-			table-layout: 3, 2;
-		}
-		.Column
-		{
-			width: -moz-fit-content;
-			width:fit-content;
-			background-color:black;
-			color:white;
-			flex:33%;
-			margin:1%;
-			padding:1%;
-		}
-		.ColumnFinal
-		{
-			width: -moz-fit-content;
-			width:fit-content;
-			background-color:black;
-			color:white;
-			flex:33%;
-			margin:1%;
-			padding-left:1%;
-			padding-right:1%;
-			padding-bottom:-1%;
-		}
-		.Row
-		{
-			display: flex;	
-		}
-		.RowTwo
-		{
-			display: flex;
-		}
-		.Responsive
-		{
-			max-width:480px;
-			max-height:480px;
-			width:100%;
-			height:auto;
-		}
-		.navBar 
-		{
-			width: 100%;
-			position:sticky;
-		}
-		.Menu 
-		{
-			display:flex;
-  			align-content:flex-end;
-  			background-color: black;
-		}
+		.body
+			{
+				height:inherit; width:inherit;
+				background-color:black;
+				font-family: sans-serif;
+				cursor:pointer;
+			}
+			.MainPage
+			{
+				margin-left:1%;
+				margin-right:1%;
+				margin-top:2.5%;
+				margin-bottom:1%;
+				background-color:slategray;
+				padding-top:0.005%;
+			}
+			.Layout
+			{
+				display:grid;
+			}
+			.Header
+			{
+				display:grid;
+				position:center;
+				background-color:black;
+				margin:1%;
+			}
+			.Title
+			{
+				display:grid;
+				text-align:center;
+				color:green;
+				font-family:"Verdana Pro Cond Light";
+				font-style:italic;
+				margin:1%;
+				font-size: 48px;
+			}
+			.MainDiv
+			{
+				display:grid;
+				background-color:slategray;
+				margin-left:1%;
+				margin-right:1%;
+			}
+			h2
+			{
+				display:grid;
+				background-color:black;
+				color:green;
+				font-family:"Verdana Pro Cond Light";
+				font-style:italic;
+				margin-right:1%;
+				margin-left:1%;
+				position:center;
+				text-align:center;
+			}
+			.SubHeader
+			{
+				font-style:italic;
+				text-align:center;
+				text-decoration: underline;
+			}
+			.Column
+			{
+				width: -moz-fit-content;
+				width:fit-content;
+				background-color:black;
+				color:white;
+				flex:33%;
+				margin:1%;
+				padding:1%;
+			}
+			.Row
+			{
+				display: flex;	
+			}
+			.Responsive
+			{
+				width:100%;
+				height:100%;
+			}
+			p
+			{
+				text-align: justify;
+			}
+			.Copyright
+			{
+				display:grid;
+				position:center;
+				background-color:black;
+				margin:1%;
+			}
+			.CopyrightInfo
+			{
+				color: white;
+				text-align:justify;
+				text-emphasis: italic;
+			}
+			.exampleCode
+			{
+				background-color:white;
+				color:black;
+				padding:2%;
+				overflow-x: hidden;
+				overflow-y: auto;
+			}
 
-		.Menu a 
-		{
-			float:left;
-			margin:1%;
-  			display: flex;
- 		 	color: white;
- 		 	text-align: center;
-			text-decoration:none;
-		}
-		.Menu a:hover 
-		{
-  			background-color:green;
-			color:black;
-		}
-		.Active
-		{
-			background-color:green;
-		}
-		.ParaOne
-		{
-			text-align: justify;
-		}
-		.Copyright
-		{
-			display:grid;
-			position:center;
-			background-color:black;
-			margin:1%;
-		}
-		.CopyrightInfo
-		{
-			color: white;
-			text-align:justify;
-			text-emphasis: italic;
-		}
-		.exampleCode
-		{
-			background-color:white;
-			color:black;
-			padding:2%;
-			overflow-x: hidden;
-			overflow-y: auto;
-		}
-<script type="text/javascript" src="./financeCalculator.js"> </script>
-<script type="text/javascript" src="./customisation.js"> </script>
+/* Image */
+
+img {
+    display:flexbox;
+    object-position:center;
+}
+
+/* Navigation Bar */
+ul {
+	list-style-type: none;
+ 	margin: 0;
+ padding:0;
+	}
+
+li {
+  display:inline;
+  text-align: center;
+}
+li a {
+				float:left;
+				margin:5px;
+	 		 	color: white;
+	 		 	text-align: center;
+					text-decoration: none;
+}
+li a:hover {
+	color:green;
+	cursor: grab;
+}
+.active {
+	color:green;
+}
+/* Adapt navigation bar for phones etc. */
+@media and {
+
+}
+
+/* Excess Code
+			.ColumnFinal
+			{
+				width: -moz-fit-content;
+				width:fit-content;
+				background-color:black;
+				color:white;
+				flex:33%;
+				margin:1%;
+				padding-left:1%;
+				padding-right:1%;
+				padding-bottom:-1%;
+			}
+
+
+
+*/
