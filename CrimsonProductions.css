@@ -25,6 +25,11 @@
 				background-color:black;
 				margin:1%;
 			}
+      .menu {
+				display:grid;
+				background-color:black;
+				margin:1%;
+			}
 			.Title
 			{
 				display:grid;
