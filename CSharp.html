@@ -1,18 +1,20 @@
 <!doctype html>
 <html>
+
 <head>
-<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
-<title>CrimsonProductions</title>
-	<link href="./CrimsonProductions.css"  rel="stylesheet" type="text/css">
-	
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CrimsonProductions</title>
+	<link href="./CrimsonProductions.css" rel="stylesheet" type="text/css">
+
 </head>
 
 <body class="body">
 	<grid class="Layout">
-		<div class="MainPage">			<div class="Header">
+		<div class="MainPage">
+			<div class="Header">
 				<a href="./index.html" class="Title">CrimsonMedia Productions</a> </div>
-		<div class="menu">
-        <ul>
+			<div class="menu">
+				<ul>
 					<li><a href="./index.html">HomePage</a></li>
 					<li><a href="./C++.html">C++</a></li>
 					<li><a href="./CSharp.html" class="active">C#</a></li>
@@ -21,26 +23,46 @@
 					<li><a href="./AboutMe.html">About me</a></li>
 					<li><a href="./Contact.html">Contact</a></li>
 					<li><a href="./Copyright.html">Copyright</a></li>
-        </ul>
+				</ul>
 			</div>
 		</div>
-	<div class="MainDiv">
-	<div><h2 class="HeaderTwo">Welcome to C# aka CSharp</h2></div>
-		<div class="Information">
-		<div class="Row">
-		<div class="Column">
-			<h3 class="SubHeader">Common courtesy rules</h3>
-		Within this column I shall write a little about C#<br>
+		<div class="MainDiv">
+			<div>
+				<h2 class="HeaderTwo">Welcome to C#</h2>
 			</div>
-		<div class="Column">
-			<h3 class="SubHeader">Common courtesy rules</h3>
-		Within this column I shall include some example code:
+			<div class="Information">
+				<div class="Row">
+					<div class="Column">
+						<h3 class="SubHeader">C# - CSharp</h3>
+						C# also known as CSharp, is a high-level coding language, designed to be a successor to C++, it
+						has been used within application development for many years.<br>Some companies such as Samsung - Android - use C# to create most of their in mobile applications. Unlike C++ creating a GUI (Graphical User Interface) is much easier in C#. This makes it a go to application development language across many platforms.
 			</div>
-		<div class="Column"><img src="./CMPLOGO32.svg" alt="CrimsonProductionsLogo" class="Responsive"></div>
-		</div>
-	</div>
-		</div>
-</grid>	
-			
+						<div class="Column">
+							<img src="./CMPLOGO32.svg" alt="CrimsonProductionsLogo" class="Responsive"></div>
+						</div>
+						<div class="Column">
+							<div class="exampleCode">
+								<h4> The Hello World Program </h4>
+								<p>One of the first projects most people undertake while learning to code, regardless of
+									the lagnguage, is the famout
+									"Hello World". This project is simple, covers how to explain via the language, how
+									to display text to the users screen:</p>
+								<p><code> using System; <br>namespace HelloWorld <br>class Program {<br>static void Main(string[] args) <br>{ <br>Console.WriteLine("Hello World"); <br>} <br>}</code>
+								</p>
+								<h4> Taking User Input </h4>
+								<p> This set of code will use a variable to take in a form of user input and output
+									it into a string format: </p>
+								<p><code> using System; <br>namespace UserInput <br>class Program {<br>static void Main(string[] args)<br>{<br>string userInput = ""; <br>Console.ReadLine(userInput);<br>Console.WriteLine(userInput); <br>} <br>}</code>
+								</p>
+								<h4> Variables </h4>
+								<p> Variables are an integral part of coding, they define the data types which are in
+									use, as well as a localised name for them which is used in reference throughout the
+									code:</p>
+								<p><code> using System; <br>namespace UserInput <br>class Program {<br>static void Main(string[] args)<br>{<br>string String = "Hello"; <br>int Integer = 1;<br>float Float = 3.14; <br>bool Boolean = true;<br>char Character = 'c'; <br><br>Console.WriteLine(String); <br>Console.WriteLine(Integer);<br>Console.WriteLine(Float);<br>Console.WriteLine(Boolean);<br>Console.WriteLine(Character);<br>} <br>}</code><br>This piece of code will print out in order: Hello, 1, 3.14, true, c</p>
+								</p>
+							</div>
+						</div>
+	</grid>
 </body>
+
 </html>
