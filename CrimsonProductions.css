@@ -109,8 +109,8 @@ p
 	background-color:white;
 	color:black;
 	padding:2%;
-	overflow-x: hidden;
-	overflow-y: auto;
+	overflow:scroll;
+	height: 200px;
 }
 
 /* Image */
