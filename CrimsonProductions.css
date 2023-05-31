@@ -1,10 +1,9 @@
 .body
 {
 	height:inherit; width:inherit;
-	background-color:rgba(0,0,0,0.9);
 	font-family: sans-serif;
 	cursor:pointer;
-  background-image: linear-gradient(white, black);
+background-image: linear-gradient(white, rgb(146, 11, 38));
   
 }
 .MainPage
