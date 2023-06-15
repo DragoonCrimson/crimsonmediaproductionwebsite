@@ -31,7 +31,7 @@ background-image: linear-gradient(white, rgb(146, 11, 38));
 {
 	display:grid;
 	text-align:center;
-	color:white;
+	color:ivory;
 	font-family:"Verdana Pro Cond Light";
 	font-style:italic;
 	margin:1%;
@@ -49,7 +49,7 @@ h2
 {
 	display:grid;
 	background-color:rgba(112, 128, 144, 0.267);
-	color:white;
+	color:ivory;
 	font-family:"Verdana Pro Cond Light";
 	font-style:italic;
 	margin-right:1%;
@@ -69,7 +69,7 @@ h3
 	width: -moz-fit-content;
 	width:fit-content;
 	background-color:rgba(112, 128, 144, 0.267);
-	color:white;
+	color:ivory;
 	flex:33%;
 	margin:1%;
 	padding:1%;
@@ -97,7 +97,7 @@ p
 }
 .CopyrightInfo
 {
-	color: white;
+	color: ivory;
 	text-align:justify;
 	text-emphasis: italic;
 }
