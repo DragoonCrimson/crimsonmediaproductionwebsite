@@ -124,8 +124,8 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow-x: auto;
-  background-color:rgba(14, 15, 15);
+  overflow: auto;
+  background-color:rgba(112, 128, 144, 0.267);
 }
 
 li {
