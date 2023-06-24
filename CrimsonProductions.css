@@ -170,6 +170,15 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+.searchBar{
+  float:right;
+  height:12px;
+}
+.searchButton{
+  float:right;
+  height:18px;
+  background-color:rgba(112, 128, 144, 0.267);
+}
 
 /* Excess Code
 .ColumnFinal
