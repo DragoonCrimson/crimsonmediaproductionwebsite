@@ -1,3 +1,3 @@
-# crimsonmediaproductionwebsite
+# Crimson Media Production Website
 
-This is a project which will showcase different aspects of coding languages I know and enjoy.
+Official company website, showcasing what the company offers and the skill of the team
