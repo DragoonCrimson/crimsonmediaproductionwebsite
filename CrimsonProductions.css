@@ -5,6 +5,7 @@
 	cursor:pointer;
 	background-image: linear-gradient(white, rgb(146, 11, 38));
 	min-height:720px;
+	background-size:auto;
   
 }
 .MainPage
