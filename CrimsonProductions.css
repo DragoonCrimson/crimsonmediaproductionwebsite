@@ -179,11 +179,15 @@ li.dropdown {
 .searchBar{
   float:right;
   height:12px;
+  margin-right:1%;
+  margin-top:1.33%;
 }
 .searchButton{
   float:right;
   height:18px;
   background-color:rgba(112, 128, 144, 0.267);
+  margin-right:1%;
+  margin-top:1.33%;
 }
 
 /* Excess Code
