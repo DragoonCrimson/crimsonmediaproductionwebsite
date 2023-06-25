@@ -129,6 +129,9 @@ ul {
   padding: 0;
   overflow: auto;
   background-color:rgba(112, 128, 144, 0.267);
+	box-shadow: 10px 10px rgba(0,0,0,0.2);
+  margin-left: 1%;
+  margin-right:1%;
 }
 
 li {
