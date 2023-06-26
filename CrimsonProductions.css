@@ -120,6 +120,15 @@ img {
    	object-position:center;
 	object-fit: contain;
 }
+div.gallery img {
+  width: 33%;
+  -webkit-box-reflect:below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+}
+
+div.credit {
+  padding: 10px;
+  text-align: center;
+}
 
 /* Navigation Bar */
 
