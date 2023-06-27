@@ -127,6 +127,7 @@ div.gallery img {
 div.gallery img:hover {
   width: 200%;
   height:200%;
+  image-resolution:initial;
 }
 
 div.credit {
