@@ -1,6 +1,6 @@
 .body
 {
-	height:inherit; width:inherit;
+	min-height: 360px; height:2560px; max-height: 2560px;
 	font-family: sans-serif;
 	cursor:pointer;
 	background-image: linear-gradient(white, rgb(146, 11, 38));
