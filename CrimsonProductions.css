@@ -112,6 +112,7 @@ p
 	overflow:scroll;
 	height: 200px;
 }
+/*JavaScript Special CSS*/
 .JavaScriptOne{
   float:right;
   width: -moz-fit-content;
@@ -126,6 +127,41 @@ p
 .JavaScriptTwo{
   float:left;
   	width: -moz-fit-content;
+	width:fit-content;
+	background-color:rgba(112, 128, 144, 0.267);
+	color:ivory;
+	flex:33%;
+	margin:1%;
+	padding:1%;
+  box-shadow: 10px 10px rgba(0,0,0,0.2);
+}
+
+/*Twitch Streamers Unique CSS*/
+.Don{
+float:left;
+	width: -moz-fit-content;
+	width:fit-content;
+	background-color:rgba(112, 128, 144, 0.267);
+	color:ivory;
+	flex:33%;
+	margin:1%;
+	padding:1%;
+  box-shadow: 10px 10px rgba(0,0,0,0.2);
+}
+.Mint{
+float:center;
+	width: -moz-fit-content;
+	width:fit-content;
+	background-color:rgba(112, 128, 144, 0.267);
+	color:ivory;
+	flex:33%;
+	margin:1%;
+	padding:1%;
+  box-shadow: 10px 10px rgba(0,0,0,0.2);
+}
+.Diablo{
+float:right;  	
+	width: -moz-fit-content;
 	width:fit-content;
 	background-color:rgba(112, 128, 144, 0.267);
 	color:ivory;
