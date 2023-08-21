@@ -141,7 +141,7 @@ p
 float:left;
 	width: -moz-fit-content;
 	width:fit-content;
-	background-color:rgba(112, 128, 144, 0.267);
+	background-color:rgba(255, 128, 144, 0.4);
 	color:ivory;
 	flex:33%;
 	margin:1%;
