@@ -1,12 +1,10 @@
 .body
 {
-	height: auto;
-	width: auto;
 	font-family: sans-serif;
 	cursor:pointer;
-	background-image: linear-gradient(white, rgb(146, 11, 38));
-	background-size:auto;
-	background-repeat:repeat-y;
+	background-image: linear-gradient(white, rgb(146, 11, 38), white);
+  	background-repeat:repeat-y;
+  	background-size:auto;
   
 }
 .MainPage
