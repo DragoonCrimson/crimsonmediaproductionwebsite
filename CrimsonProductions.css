@@ -1,10 +1,10 @@
 .body
 {
-	min-height: 360px; max-height: 2560px;
+	height: auto;
+	width: auto;
 	font-family: sans-serif;
 	cursor:pointer;
 	background-image: linear-gradient(white, rgb(146, 11, 38));
-	min-height:720px;
 	background-size:auto;
 	background-repeat:repeat-y;
   
