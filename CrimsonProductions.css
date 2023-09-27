@@ -27,7 +27,7 @@
 	display:grid;
 	position:center;
 	background-color:rgba(112, 128, 144, 0.267);
-  box-shadow: 10px 10px rgba(0,0,0,0.2);
+  	box-shadow: 10px 10px rgba(0,0,0,0.2);
 	margin:1%;
 }
 .Title
@@ -117,7 +117,7 @@ p
 /*Logo*/
 .logo
 {
-	height: 80px;
+	height: 200px;
 	width: 200px;
 	float: left;
 }
