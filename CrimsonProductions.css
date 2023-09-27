@@ -38,7 +38,9 @@
 	font-family:"Verdana Pro Cond Light";
 	font-style:italic;
 	margin:1%;
-	font-size: 48px;
+	padding-left:150px;
+	font-size: 50px;
+	float:left;
 }
 .MainDiv
 {
@@ -112,6 +114,14 @@ p
 	overflow:scroll;
 	height: 200px;
 }
+/*Logo*/
+.logo
+{
+	height: 80px;
+	width: 200px;
+	float: left;
+}
+
 /*JavaScript Special CSS*/
 .JavaScriptOne{
   float:right;
@@ -261,18 +271,3 @@ li.dropdown {
   margin-right:1%;
   margin-top:1.33%;
 }
-
-/* Excess Code
-.ColumnFinal
-{
-	width: -moz-fit-content;
-	width:fit-content;
-	background-color:black;
-	color:white;
-	flex:33%;
-	margin:1%;
-	padding-left:1%;
-	padding-right:1%;
-	padding-bottom:-1%;
-}
-*/
