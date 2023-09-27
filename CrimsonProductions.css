@@ -34,7 +34,7 @@
 {
 	display:grid;
 	text-align:center;
-	color:ivory;
+	color:black;
 	font-family:"Verdana Pro Cond Light";
 	font-style:italic;
 	margin:1%;
@@ -54,7 +54,7 @@ h2
 {
 	display:grid;
 	background-color:rgba(112, 128, 144, 0.267);
-	color:ivory;
+	color:black;
 	font-family:"Verdana Pro Cond Light";
 	font-style:italic;
 	margin-right:1%;
@@ -102,7 +102,7 @@ p
 }
 .CopyrightInfo
 {
-	color: ivory;
+	color: black;
 	text-align:justify;
 	text-emphasis: italic;
 }
@@ -128,7 +128,7 @@ p
   width: -moz-fit-content;
 	width:fit-content;
 	background-color:rgba(112, 128, 144, 0.267);
-	color:ivory;
+	color:black;
 	flex:33%;
 	margin:1%;
 	padding:1%;
@@ -139,7 +139,7 @@ p
   	width: -moz-fit-content;
 	width:fit-content;
 	background-color:rgba(112, 128, 144, 0.267);
-	color:ivory;
+	color:black;
 	flex:33%;
 	margin:1%;
 	padding:1%;
@@ -152,7 +152,7 @@ float:left;
 	width: -moz-fit-content;
 	width:fit-content;
 	background-color: rgba(223, 10, 38, .7);
-	color:ivory;
+	color:black;
 	flex:33%;
 	margin:1%;
 	padding:1%;
@@ -163,7 +163,7 @@ float:center;
 	width: -moz-fit-content;
 	width:fit-content;
 	background-color:rgba(0, 255, 149, 0.7);
-	color:ivory;
+	color:black;
 	flex:33%;
 	margin:1%;
 	padding:1%;
@@ -174,7 +174,7 @@ float:right;
 	width: -moz-fit-content;
 	width:fit-content;
 	background-color:rgba(0, 116, 248, 0.7);
-	color:ivory;
+	color:black;
 	flex:33%;
 	margin:1%;
 	padding:1%;
@@ -211,7 +211,7 @@ ul {
   padding: 0;
   overflow: auto;
   background-color:rgba(112, 128, 144, 0.267);
-	box-shadow: 10px 10px rgba(0,0,0,0.2);
+  box-shadow: 10px 10px rgba(0,0,0,0.2);
   margin-left: 1%;
   margin-right:1%;
 }
