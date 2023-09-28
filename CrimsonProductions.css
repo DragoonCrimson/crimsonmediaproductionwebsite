@@ -1,10 +1,11 @@
+/*MAIN CSS*/
 .body
 {
 	height:inherit;
 	width:inherit;
 	font-family: sans-serif;
 	cursor:pointer;
-	background-image: linear-gradient(white, rgb(146, 11, 38), white);
+	background-image: linear-gradient(white, rgb(85, 83, 84), white);
   	background-repeat:repeat-y;
   	background-size:auto;
   
@@ -38,9 +39,8 @@
 	font-family:"Verdana Pro Cond Light";
 	font-style:italic;
 	margin:1%;
-	padding-left:150px;
 	font-size: 50px;
-	float:left;
+	float:center;
 }
 .MainDiv
 {
@@ -61,7 +61,7 @@ h2
 	margin-left:1%;
 	position:center;
 	text-align:center;
-  box-shadow: 10px 10px rgba(0,0,0,0.2);
+    box-shadow: 10px 10px rgba(0,0,0,0.2);
 }
 h3
 {
@@ -118,8 +118,12 @@ p
 .logo
 {
 	max-height:100%;
-	max-width:10%;
-	float: left;
+	max-width:25%;
+	float: center;
+    border-bottom: solid black 1px;
+    margin-left:35%;
+    padding-bottom:-100px;
+    padding-top: -10%;
 }
 
 /*JavaScript Special CSS*/
@@ -191,12 +195,6 @@ img {
 div.gallery img {
   -webkit-box-reflect:below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
 }
-/*
-div.gallery img:hover {
-  width: 200%;
-  height:200%;
-  image-resolution:initial;
-}*/
 
 div.credit {
   padding: 10px;
@@ -204,7 +202,6 @@ div.credit {
 }
 
 /* Navigation Bar */
-
 ul {
   list-style-type: none;
   margin: 0;
@@ -215,15 +212,13 @@ ul {
   margin-left: 1%;
   margin-right:1%;
 }
-
 li {
   float: left;
 }
-
 li a, .dropbtn {
   display: inline-block;
   color: black;
-  text-align: center;
+  text-align: justify;
   padding: 14px 16px;
   text-decoration: none;
 }
@@ -250,7 +245,7 @@ li.dropdown {
   padding: 12px 16px;
   text-decoration: none;
   display: block;
-  text-align: left;
+  text-align: justify;
 }
 
 .dropdown-content a:hover {background-color: #f1f1f1;}
